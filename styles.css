@@ -107,10 +107,17 @@ div#output-div {
     margin: auto;
 }
 
-@media (min-height: 760px)
+@media (min-height: 800px)
 {
     #footer {
         position:fixed;
         bottom:0;
+    }
+}
+@media (max-width: 420px)
+{
+    #footer {
+        position:static;
+       
     }
 }
